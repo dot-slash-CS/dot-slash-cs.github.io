@@ -117,7 +117,7 @@
   width: 100%;
   text-align: center;
   visibility: hidden;
-  background-color: tint($black-color, 5%);
+  background-color: $white-color;//tint($black-color, 5%);
   @include transition(visibility 0s $animation-duration);
 
   .navigation-wrapper {
@@ -176,16 +176,16 @@
     a {
       font-size: 1.4rem;
       text-decoration: none;
-      color: rgba($white-color, .5);
+      color: $black-color;
       font-weight: $font-weight-light;
       display: inline-block;
 
       &.selected {
-        color: $white-color;
+        color: rgba($black-color, .5);
       }
 
       .no-touch &:hover {
-        color: $white-color;
+        color: rgba($black-color, .5);
       }
     }
   }
