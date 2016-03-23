@@ -3,7 +3,7 @@ layout: post
 title:  "Consectetuer adipiscing elit"
 permalink:  "consectetuer-adipiscing-elit"
 date:   2015-12-21 20:08:35 -0200
-categories: jekyll update
+category: update
 ---
 
 <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
