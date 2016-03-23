@@ -17,30 +17,30 @@ markdown    : kramdown
 highlighter : pygments
 
 # SEO settings
-title: dotX
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+title: Dot-Slash-CS
+description: "A computer science club at Ohlone College."
+keywords: "computer, science, Ohlone, College, Ohlone College, Computer Science, ./CS, dot-slash-cs, dotslashcs, cs"
 
 # Site settings
-url: http://nandomoreira.me
-baseurl: "/dotX"
+url: http://dot-slash-cs.club
+baseurl: ""
 # baseurl: ""
 
 # Author settings
 author:
-  name      : Fernando Moreira
-  job       : Frontend Engineer
-  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name      : ./ComputerScience
+  job       : Computer Science Club at Ohlone College
+  bio       : "We are a group of computer science students at Ohlone College who have created a cohesive, inclusive community with limitless potential!"
   thumb     : /images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  twitter   : http://twitter.com/nandomoreirame
-  facebook  : http://facebook.com/fernando.dev
-  linkedin  : http://linkedin.com/in/nandomoreirame
+  email     : cout@dot-slash-cs.club
+  url       : http://dot-slash-cs.club
+  github    : http://github.com/dot-slash-CS
+  twitter   : 
+  facebook  : http://facebook.com/groups/DotSlashCS/
+  linkedin  : 
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/dotX
+# repo: http://github.com/nandomoreirame/dotX
 
 # comments
-disqus_shortname: "fernandomoreira"
+# disqus_shortname: "fernandomoreira"
