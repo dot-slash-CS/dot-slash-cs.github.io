@@ -15,8 +15,8 @@ markdown    : kramdown
 highlighter : pygments
 
 # SEO settings
-title: Dot-Slash-CS
-description: "A computer science club at Ohlone College."
+title: ./ComputerScience
+description: "The computer science club of Ohlone College."
 keywords: "computer, science, Ohlone, College, Ohlone College, Computer Science, ./CS, dot-slash-cs, dotslashcs, cs"
 
 # Site settings
@@ -28,7 +28,7 @@ baseurl: ""
 author:
   name      : ./ComputerScience
   job       : Computer Science Club at Ohlone College
-  bio       : "We are a group of computer science students at Ohlone College who have created a cohesive, inclusive community with limitless potential!"
+  bio       : "We are a group of computer science students at Ohlone College who have created a cohesive, inclusive community with limitless potential."
   thumb     : /images/author.jpg
   email     : cout@dot-slash-cs.club
   url       : http://dot-slash-cs.club
