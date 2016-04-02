@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "WebConsultant"
-permalink:  "webconsultant-start"
 date:   2016-03-22 00:05:00
 category: project
 ---
