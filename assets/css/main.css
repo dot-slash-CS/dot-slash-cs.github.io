@@ -2235,6 +2235,21 @@
 			padding-left: 0.5em;
 		}
 
+		ul.alt2 {
+			list-style: disc;
+			margin: 0 0 2em 0;
+			padding-left: 1em;
+		}
+
+			ul.alt2 li {
+				font-size: 1.2em;
+				padding-left: 0.5em;
+				padding-right: 1em;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				text-align: left;
+			}
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
