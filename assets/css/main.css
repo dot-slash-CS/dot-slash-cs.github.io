@@ -1,6 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -54,6 +55,32 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+	}
+
+
+/* Fade-In */
+
+@-webkit-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
+@-moz-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
+@keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
+
+	.fade-in {
+	  opacity:0;
+	  -webkit-animation:fadeIn ease-in 1;
+	  -moz-animation:fadeIn ease-in 1;
+	  animation:fadeIn ease-in 1;
+	  -webkit-animation-fill-mode:fowards;
+	  -moz-animation-fill-mode:fowards;
+	  animation-fill-mode:forwards;
+	  -webkit-animation-duration:1s;
+	  -mox-animation-duration:1s;
+	  animation-duration:1s;
+	}
+
+	.fade-in.one{
+	-webkit-animation-delay:.3s;
+    -moz-animation-delay:.3s;
+    animation-delay:.3s;	
 	}
 
 /* Grid */
@@ -3079,18 +3106,18 @@
 			}
 
 		#banner h2 {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.8s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.8s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.8s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.8s ease, filter 0.25s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.65s;
-			-webkit-transition-delay: 0.65s;
-			-ms-transition-delay: 0.65s;
-			transition-delay: 0.65s;
+			-moz-transition-delay: .8s;
+			-webkit-transition-delay: .8s;
+			-ms-transition-delay: .8s;
+			transition-delay: .8s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
@@ -3103,18 +3130,18 @@
 		}
 
 		#banner p {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
-			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.8s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.8s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.8s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.8s ease, filter 0.25s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			-moz-transition-delay: 0.8s;
-			-webkit-transition-delay: 0.8s;
-			-ms-transition-delay: 0.8s;
-			transition-delay: 0.8s;
+			-moz-transition-delay: 1s;
+			-webkit-transition-delay: 1s;
+			-ms-transition-delay: 1s;
+			transition-delay: 1s;
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
