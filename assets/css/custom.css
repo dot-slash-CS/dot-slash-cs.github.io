@@ -226,9 +226,22 @@ header{
 #contact .icons li{
 	display: inline ;
 }
+#contact .icons a{
+	color: #000 ;
+}
+#contact .icons a:hover{
+	background-color: #000;
+	color: #fff;
+}
 #contact ul{
 	padding: 0px ;
 	list-style-type: none ;
+}
+#contact .emails a{
+	color: #fff;
+}
+#contact .emails a:hover{
+	color: #ddd;
 }
 #contact .btn-social-icon{
 	border-radius: 1px;
