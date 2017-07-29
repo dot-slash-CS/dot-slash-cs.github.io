@@ -213,6 +213,10 @@ header{
 	display: grid;
 	grid-template-columns: repeat( 4 , 1fr );
 }
+#calendar{
+	width: 90%;
+	margin: auto ;
+}
 
 #contact{
 	text-align: center;
