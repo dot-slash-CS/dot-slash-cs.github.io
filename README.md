@@ -5,12 +5,6 @@ The code here serves as a placeholder website for ./CS.
 
 Credits:
 
-    Solid State by HTML5 UP
-        html5up.net | @ajlkn
-            Free for personal and commercial use under the CCA 3.0 license
-                Demo Images:
-                        Unsplash (unsplash.com)
-
     Icons:
             Font Awesome (fortawesome.github.com/Font-Awesome)
 
@@ -21,3 +15,10 @@ Credits:
                                     Misc. Sass functions (@HugoGiraudel)
                                             Respond.js (j.mp/respondjs)
                                                     Skel (skel.io)
+for IE dinosaurs
+    Solid State by HTML5 UP
+        html5up.net | @ajlkn
+            Free for personal and commercial use under the CCA 3.0 license
+                Demo Images:
+                        Unsplash (unsplash.com)
+

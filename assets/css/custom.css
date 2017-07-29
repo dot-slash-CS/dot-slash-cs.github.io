@@ -1,0 +1,266 @@
+body{
+	padding-top: 50px;
+}
+.navbar{
+	text-align: center;
+	background-color: #fff;
+	background-border: #fff;
+}
+
+#indexNav li a{
+	border-width: 1px;
+	border-color: #fff;
+	border-radius: 1px;
+	border-style: solid;
+}
+#indexNav li a:hover{
+	border-color:#000;
+}
+
+header{
+	height: 100vh;
+}
+#head{
+	margin: auto ;
+	height: 100% ;
+	width: 90% ;
+	background-image:url("../images/dot-slash-trans.png");
+	background-size: contain ;
+	background-repeat: no-repeat;
+	background-position: 0vh 20vh;
+	text-align: center ;
+}
+
+.jumbotron{
+	background-color: #fff;
+}
+
+#jumboSub{
+	margin-top: 70vh;
+	border-radius: 1px;
+	border-width: 2px;
+	border-color: #000;
+	color: #000;
+}
+#jumboSub:hover{
+	border-color: #fff;
+	color: #555;
+	background-color: #fff;
+}
+
+#news{
+}
+.newsCard{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-areas: "graphic content";
+	grid-gap: 10px;
+}
+
+.newsCard .graphic{
+	grid-area: graphic;
+}
+.newsCard .graphic img{
+	width: 90% ;
+}
+.newsCard .content{
+	grid-area: content;
+}
+
+#projects .project-bin{
+	display: grid;
+	grid-template-columns: repeat( auto-fill , 200px ); 
+}
+/*
+#projects .project{
+	border-color: #000;
+	border-width: 2px;
+	border-left-style: solid;
+	margin-top: 10px;
+}
+*/
+
+#about{
+	display: grid;
+	grid-gap: 20px;
+}
+
+@media screen and  (min-width: 1000px) and (max-width: 1400px){
+	body{
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: 1fr 3fr;
+		grid-template-areas:
+			"header header"
+			"sidebar content1"
+			"sidebar content2"
+			"sidebar content3"
+			"sidebar content4"
+			"sidebar content5"
+			"footer footer"
+	}
+	.jumbotron{
+		grid-area: header;
+	}
+	#news{
+		grid-area: content1 ;
+	}
+	#projects{
+		grid-area: content2 ;
+	}
+	#about{
+		grid-area: content3 ;
+	}
+	#events{
+		grid-area: content4 ;
+	}
+	#contact{
+		grid-area: sidebar;
+	}
+	#calendar{
+		grid-area: content5 ;
+	}
+	footer{
+		grid-area: footer;
+	}
+}
+
+@media screen and  (min-width: 1400px){
+	body{
+		display: grid;
+		grid-gap: 25px;
+		grid-template-columns: 300px auto 250px ;
+		grid-template-areas:
+			"header header header"
+			"sidebar-left content1 sidebar-right"
+			"sidebar-left content2 sidebar-right"
+			"sidebar-left content3 sidebar-right"
+			"sidebar-left content4 sidebar-right"
+			"footer footer footer"
+			;
+	}
+
+	.jumbotron{
+		grid-area: header;
+	}
+	#contact{
+		grid-area: sidebar-left;
+	}
+	#projects{
+		grid-area: sidebar-right;
+		background: linear-gradient( to right, #fcfcfc , #fff);
+		color: #888;
+	}
+	#news{
+		grid-area: content1 ;
+	}
+	#about{
+		grid-area: content2 ;
+	}
+	#events{
+		grid-area: content3 ;
+	}
+	#calendar{
+		grid-area: content4 ;
+	}
+	footer{
+		grid-area: footer;
+	}
+}
+
+@media screen and  (min-width: 800px){
+	#about{
+		grid-template-columns: 1fr 1fr ;
+	}
+	.aboutSub{
+		display: grid;
+		grid-template-columns: 1fr ;
+		grid-template-rows: auto auto ;
+		grid-template-areas:
+			"graphic"
+			"content"
+			;
+	}
+}
+
+@media screen and  (min-width: 550px) and ( max-width: 800px){
+	.aboutSub{
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-template-areas:
+		"graphic content";
+		grid-gap: 50px;
+	}
+
+	.aboutSub .graphic{
+		grid-area: graphic ;
+	}
+
+	.aboutSub .content{
+		grid-area: content;
+	}
+
+}
+
+#events .box{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-column-gap: 25px ;
+	grid-row-gap: 30px ;
+}
+
+#events .collage{
+	display: grid;
+	grid-template-columns: repeat( 4 , 1fr );
+}
+#calendar{
+	width: 90%;
+	margin: auto ;
+}
+
+#contact{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+#contact .icons li{
+	display: inline ;
+}
+#contact .icons a{
+	color: #000 ;
+}
+#contact .icons a:hover{
+	background-color: #000;
+	color: #fff;
+}
+#contact ul{
+	padding: 0px ;
+	list-style-type: none ;
+}
+#contact .emails a{
+	color: #fff;
+}
+#contact .emails a:hover{
+	color: #ddd;
+}
+#contact .btn-social-icon{
+	border-radius: 1px;
+}
+
+footer p{
+	display: inline;
+	margin: 10px;
+	text-align: center;
+}
+
+#projectsbtn{
+	border-radius: 1px;
+}
+
+section{
+	padding-top: 50px;
+}
+
+p{
+	color: #666;
+}
