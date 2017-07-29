@@ -96,6 +96,7 @@ header{
 			"sidebar content2"
 			"sidebar content3"
 			"sidebar content4"
+			"sidebar content5"
 			"footer footer"
 	}
 	.jumbotron{
@@ -116,6 +117,9 @@ header{
 	#contact{
 		grid-area: sidebar;
 	}
+	#calendar{
+		grid-area: content5 ;
+	}
 	footer{
 		grid-area: footer;
 	}
@@ -131,6 +135,7 @@ header{
 			"sidebar-left content1 sidebar-right"
 			"sidebar-left content2 sidebar-right"
 			"sidebar-left content3 sidebar-right"
+			"sidebar-left content4 sidebar-right"
 			"footer footer footer"
 			;
 	}
@@ -154,6 +159,9 @@ header{
 	}
 	#events{
 		grid-area: content3 ;
+	}
+	#calendar{
+		grid-area: content4 ;
 	}
 	footer{
 		grid-area: footer;
@@ -216,6 +224,7 @@ header{
 }
 #contact ul{
 	padding: 0px ;
+	list-style-type: none ;
 }
 #contact .btn-social-icon{
 	border-radius: 1px;
