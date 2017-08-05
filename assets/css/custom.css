@@ -14,7 +14,7 @@ body{
 	border-style: solid;
 }
 #indexNav li a:hover{
-	border-color:#000;
+	border-color:#333;
 }
 
 header{
@@ -39,8 +39,8 @@ header{
 	margin-top: 70vh;
 	border-radius: 1px;
 	border-width: 2px;
-	border-color: #000;
-	color: #000;
+	border-color: #333;
+	color: #333;
 }
 #jumboSub:hover{
 	border-color: #fff;
@@ -73,7 +73,7 @@ header{
 }
 /*
 #projects .project{
-	border-color: #000;
+	border-color: #333;
 	border-width: 2px;
 	border-left-style: solid;
 	margin-top: 10px;
@@ -85,7 +85,7 @@ header{
 	grid-gap: 20px;
 }
 
-@media screen and  (min-width: 1000px) and (max-width: 1400px){
+@media screen and  (min-width: 1333px) and (max-width: 1400px){
 	body{
 		display: grid;
 		grid-gap: 10px;
@@ -220,17 +220,17 @@ header{
 
 #contact{
 	text-align: center;
-	background-color: #000;
+	background-color: #333;
 	color: #fff;
 }
 #contact .icons li{
 	display: inline ;
 }
 #contact .icons a{
-	color: #000 ;
+	color: #333 ;
 }
 #contact .icons a:hover{
-	background-color: #000;
+	background-color: #333;
 	color: #fff;
 }
 #contact ul{
