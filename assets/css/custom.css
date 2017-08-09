@@ -86,7 +86,7 @@ header{
 	grid-gap: 20px;
 }
 
-@media screen and  (min-width: 1333px) and (max-width: 1400px){
+@media screen and  (min-width: 933px) and (max-width: 1400px){
 	body{
 		display: grid;
 		grid-gap: 10px;
