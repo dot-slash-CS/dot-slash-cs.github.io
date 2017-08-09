@@ -52,6 +52,7 @@ header{
 }
 .newsCard{
 	display: grid;
+  align-items: center ;
 	grid-template-columns: 1fr 4fr;
 	grid-template-areas: "graphic content";
 	grid-gap: 10px;
