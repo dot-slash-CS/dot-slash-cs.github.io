@@ -3,3 +3,4 @@ url: http://dotslashcs.club
 
 plugins:
   - jekyll-redirect-from
+theme: jekyll-theme-cayman
