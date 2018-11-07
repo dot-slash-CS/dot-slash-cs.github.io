@@ -9,12 +9,12 @@
 
 <html>
 	<head>
-		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="shortcut icon" href={{"assets/images/favicon.ico" | relative_url}} />
 		<title>Ohlone ./CS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href={{"assets/css/main.css" | relative_url}} />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -26,7 +26,7 @@
 
 					<!-- Header -->
 						<header id="header" class="alt">
-							<h1><a href="index.html">Dot-Slash CS</a></h1>
+							<h1><a href={{"index.html" | relative_url}}>Dot-Slash CS</a></h1>
 							<nav>
 								<a href="#menu">Menu</a>
 							</nav>
@@ -37,7 +37,7 @@
 							<div class="inner">
 								<h2>Menu</h2>
 								<ul class="links">
-									<li ><a href="index.html">Home</a></li>
+									<li ><a href={{"index.html" | relative_url}}>Home</a></li>
 									<li><a href="#one">Announcements</a></li>
 									<li><a href="#two">Projects</a></li>
 									<li><a href="#three">Field Trips</a></li>
@@ -74,21 +74,14 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style2">
 								<div class="inner">
-                                    <a href="https://gallery.mailchimp.com/f6c53e402d53f5a4368652d6a/images/216835de-595d-4d95-b39c-af81c4ea0a9a.png" class="image"><img src="images/chipotle_flier.jpg" alt="Chipotle Flier" /></a>
+                                    <a href="https://gallery.mailchimp.com/f6c53e402d53f5a4368652d6a/images/216835de-595d-4d95-b39c-af81c4ea0a9a.png" class="image"><img src={{"assets/images/chipotle_flier.jpg" | relative_url}} alt="Chipotle Flier" /></a>
 									<div class="content">
 										<h2 class="major">./Announcements</h2>
-										<h5>Updated: 10-12-17</h5>
-										<p2>
+										<h5 id="update-timestamp">Updated: 10-12-17</h5>
 											<ul class="alt2">
-                                                <li><h2><b>Next Club Meeting:<br></b></h2><h3> Friday, October 13, 2017<br>4:30pm - 6:00pm<br>Ohlone, NC2306</h3></li>
+												<li><h2><b>Next Club Meeting:<br></b></h2><h3> Friday, October 13, 2017<br>4:30pm - 6:00pm<br>Ohlone, NC2306</h3></li>
+												<li><h2><b>Chipotle Fundraiser!:<br></b></h2><h3> Come out to our first fundraiser of the year!<br>Friday October 20, 2017 5:00pm - 9:00pm<br>Bring this flier with you to show your support! </h3></li>
 											</ul>
-										</p2>
-                                        <p3>
-                                            <u2 class="alt2">
-                                                <li><h2><b>Chipotle Fundraiser!:<br></b></h2><h3> Come out to our first fundraiser of the year!<br>Friday October 20, 2017 5:00pm - 9:00pm<br>Bring this flier with you to show your support! </h3></li>
-                                            </ul>
-                                        </p3>
-                                        <a href="https://gallery.mailchimp.com/f6c53e402d53f5a4368652d6a/images/216835de-595d-4d95-b39c-af81c4ea0a9a.png" class="special">Chipotle Flier</a>
 									</div>
 								</div>
               </section>
@@ -96,7 +89,7 @@
             <!-- Two -->
               <section id="two" class="wrapper alt spotlight style3">
                 <div class="inner">
-                  <a href="https://github.com/dot-slash-CS" class="image"><img src="images/pic01.jpg" alt="CS Projects" /></a>
+                  <a href="https://github.com/dot-slash-CS" class="image"><img src={{"images/pic01.jpg" | relative_url}} alt="CS Projects" /></a>
                   <div class="content">
                     <h2 class="major">./Projects</h2>
                     <p>We work on club projects as a whole group with varying levels of difficulty!
@@ -110,7 +103,7 @@
             <!-- Three -->
               <section id="three" class="wrapper spotlight style2">
                 <div class="inner">
-                  <a href="http://eepurl.com/bU3Zpn" class="image"><img src="images/twitter-pic.jpg" alt="Twitter HQ Field Trip" /></a>
+                  <a href="http://eepurl.com/bU3Zpn" class="image"><img src={{"assets/images/twitter-pic.jpg" | relative_url}} alt="Twitter HQ Field Trip" /></a>
                   <div class="content">
                     <h2 class="major">./Field Trips</h2>
                     <p>Come join us on our next field trip to the Twitter headquarters in San Francisco on October 4th from 11 am - 2:30 pm. Spots are limited so sign up today!
@@ -123,7 +116,7 @@
             <!-- Four -->
               <section id="four" class="wrapper alt spotlight style3">
                 <div class="inner">
-                  <a href="mailto:cin@dot-slash-cs.club" class="image"><img src="images/startup-photos.jpg" alt="Homework Help Info" /></a>
+                  <a href="mailto:cin@dot-slash-cs.club" class="image"><img src={{"assets/images/startup-photos.jpg" | relative_url}} alt="Homework Help Info" /></a>
                   <div class="content">
                     <h2 class="major">./Homework Help</h2>
                     <p>We always allocate time in our project meetings to help everyone out with any homework help. We also have a Slack Community Channel dedicated solely for homework help!</p>
@@ -170,12 +163,12 @@
 				</div>
 
 			<!-- Scripts -->
-				<script src="assets/js/skel.min.js"></script>
-				<script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/jquery.scrollex.min.js"></script>
-				<script src="assets/js/util.js"></script>
+				<script src={{"assets/js/skel.min.js" | relative_url}}></script>
+				<script src={{"assets/js/jquery.min.js" | relative_url}}></script>
+				<script src={{"assets/js/jquery.scrollex.min.js" | relative_url}}></script>
+				<script src={{"assets/js/util.js" | relative_url}}></script>
 				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-				<script src="assets/js/main.js"></script>
+				<script src={{"assets/js/main.js" | relative_url}}></script>
 
 		</body>
 	</div>
