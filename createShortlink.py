@@ -67,7 +67,7 @@ except github.UnknownObjectException as e:
 
 shortlink = ""
 while not shortlink:
-    shortlink = raw_input("What shortlink would you like to create?: ")
+    shortlink = raw_input("What shortlink would you like to create?: ").lower()
     if not shortlink or checkIfExists(r, shortlink):
         print("ERROR: '{}' already exists or is invalid. Please choose another shortlink...".format(shortlink))
         shortlink = None
