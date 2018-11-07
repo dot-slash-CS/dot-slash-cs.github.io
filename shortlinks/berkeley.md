@@ -1,6 +1,6 @@
 ---
 permalink: /berkeley
-added_by: https://www.berkeley.edu
+added_by: cpkurotori
 redirect_to:
-- cpkurotori
+- https://www.berkeley.edu
 ---
