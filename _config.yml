@@ -1,0 +1,5 @@
+site.title: Dot-Slash Computer Science
+url: http://dotslashcs.club
+
+plugins:
+  - jekyll-redirect-from
