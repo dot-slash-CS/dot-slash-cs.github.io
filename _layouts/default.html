@@ -76,12 +76,18 @@
 								<div class="inner">
 									<div class="content">
 										<h2 class="major">./Announcements</h2>
-										<h5>Updated: <span class="update" id="update-timestamp">OUT OF DATE</span></h5>
+										<h5>Updated: <span class="update" id="update-timestamp">{{ site.data.announcements.updated-timestamp }}</span></h5>
 											<ul class="alt2">
-												<li><h2><b>Next Club Meeting:<br></b></h2><h3><span class="update" id="meeting-date">Friday, October 13, 2017</span><br><span><span class="update" id="start-time">4:30pm</span> - <span class="update" id="end-time">6:00pm</span></span><br><span class="update" id="location">Ohlone, NC2306</span></h3></li>
-												<div class="update" id="announcements-list">
-													
-												</div>
+												<li><h2><b>Next Club Meeting:<br></b></h2>
+													{% if site.data.announcements.next-meeting.info %}
+														<h3><span class="update" id="meeting-date">{{ site.data.announcements.next-meeting.date }}</span><br><span><span class="update" id="start-time">{{ site.data.announcements.next-meeting.start }}</span> - <span class="update" id="end-time">{{ site.data.announcements.next-meeting.end }}</span></span><br><span class="update" id="location">{{ site.data.announcements.next-meeting.location }}</span></h3></li>
+													{% endif %}
+													{% if site.data.announcements.next-meeting.notes %}
+														<h3 {% for attr in site.data.announcements.next-meeting.notes.attr %} {{ attr }} {% endfor %}>{{ site.data.announcements.next-meeting.notes.text }}</h3>
+													{% endif %}
+												{% for a in site.data.announcements.announcements %}
+												<li>{% for tag in a.tags %} <{{ tag.tag }} {% for attr in tag.attr %} {{ attr }} {% endfor %} >{{ tag.innerHTML }}</{{ tag.tag }}> {% endfor %}</li>
+												{% endfor %}
 											</ul>
 									</div>
 								</div>
