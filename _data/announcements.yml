@@ -1,30 +1,25 @@
-updated-timestamp: Nov 7, 2018
+updated-timestamp: Feb 17, 2020
 next-meeting:
-  # info:
-  #   date: Friday, November 23, 2018
-  #   start: 4:30pm
-  #   end: 6:00pm
-  #   location: Ohlone Newark, NC2306
+  info:
+    date: Friday, February 21, 2018
+    start: 4:30pm
+    end: 6:00pm
+    location: Ohlone Newark, NC2306
   notes:
-    text: NO MEETING NEXT FRIDAY
+    text: Thanks for coming to our first meeting, we hope you enjoyed it! We will have no meeting this Friday due to the President’s Day weekend, and our next meeting will be on the Friday (02/21) of next week. We will focus on some key concepts of Github/Git, and will kickstart group projects! To ensure everyone is ready to get to work next meeting, we encourage all of you to brainstorm some simple project ideas (similar to what we did first meeting). Also, if you were unable to sign up for Slack last week, please do so using the link under the Slack announcement below.
     attr:
-      - "style='color: red'"
+      - "style='color: white'"
 announcements:
   - tags:
     - tag: h4
-      innerHTML: "Netflix Field Trip"
+      innerHTML: "Sign Up for Ohlone Hackathon"
     - tag: p
-      innerHTML: "We have been invited to tour Netflix on 11/16/2018 at 10:30 AM! Dot-Slash Computer Science will not guarantee rides if you are unable to drive. Please figure out travel plans in advance. If you are interested in visiting the Netflix campus with us, fill out this form: <a href='https://dotslashcs.club/netflix'>https://dotslashcs.club/netflix</a>"
-  - tags:
-    - tag: h4
-      innerHTML: "Dot-Slash Club T-Shirt Contest"
-    - tag: p
-      innerHTML: "You are all invited to participate in our Dot-Slash Computer Science club t-shirt design contest. The winner will have their design be the official club shirt as well as receive a free shirt! Submit your designs in this folder: <a href='https://dotslashcs.club/contest'>https://dotslashcs.club/contest</a>"
+      innerHTML: " Ohlone is hosting a hackathon on April 4th, 2020, and the application deadline is February 28th! It’s a great learning opportunity, and can help you establish an impressive portfolio; additionally, hackathons are a good way to build and expand a substantial network. We hope you all sign up using their website below!, Website for the Ohlone Hackathon: <a href='https://www.ohlonehacks.com'>https://www.ohlonehacks.com</a>"
   - tags:
     - tag: h4
       innerHTML: "Slack"
     - tag: p
-      innerHTML: "Slack is our main method of communication with members to give you details about events, homework help, alumni advice, company tours and more. It is a great resource for any student at Ohlone! Invitations to join our club Slack were sent out. We will be using Slack to communicate throughout the semester, so it's very important to join! If you didn't receive a link to join and would like to, please go to <a href='https://join.dotslashcs.club'>https://join.dotslashcs.club</a> to sign up with your Ohlone email. If you'd like to join without an Ohlone email, please reach out to us and we will send you an invite right away!"
+      innerHTML: "Slack is our main method of communication with members to give you details about events, homework help, alumni advice, company tours and more. It is a great resource for any student at Ohlone! Invitations to join our club Slack were sent out. We will be using Slack to communicate throughout the semester, so it's very important to join! If you didn't receive a link to join and would like to, please go to <a href='http://join.dotslashcs.club'>http://join.dotslashcs.club</a> to sign up with your Ohlone email. If you'd like to join without an Ohlone email, please reach out to us and we will send you an invite right away!"
   - tags:
     - tag: h4
       innerHTML: "Ohlone CS Website"
