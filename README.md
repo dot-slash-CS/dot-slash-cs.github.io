@@ -21,3 +21,8 @@ Credits:
                                     Misc. Sass functions (@HugoGiraudel)
                                             Respond.js (j.mp/respondjs)
                                                     Skel (skel.io)
+
+
+## Running Locally using Docker
+1. Install Docker
+2. `sudo docker run --rm  -v "$PWD":/usr/src/app  -p 4000:4000  starefossen/github-pages`
