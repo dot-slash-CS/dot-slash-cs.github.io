@@ -5,10 +5,10 @@ next-meeting:
     start: 4:30pm
     end: 6:00pm
     location: Ohlone Newark, NC2306
-#   notes:
-#     text: Thanks for coming to our first meeting, we hope you enjoyed it! We will have no meeting this Friday due to the President’s Day weekend, and our next meeting will be on the Friday (02/21) of next week. We will focus on some key concepts of Github/Git, and will kickstart group projects! To ensure everyone is ready to get to work next meeting, we encourage all of you to brainstorm some simple project ideas (similar to what we did first meeting). Also, if you were unable to sign up for Slack last week, please do so using the link under the Slack announcement below.
-#     attr:
-#       - "style='color: white'"
+  notes:
+    text: Thanks for coming to our first meeting, we hope you enjoyed it! Our next meeting will be on the Friday (02/21) this week. We will focus on some key concepts of Github/Git, and will kickstart group projects! To ensure everyone is ready to get to work next meeting, we encourage all of you to brainstorm some simple project ideas (similar to what we did first meeting). Also, if you were unable to sign up for Slack last week, please do so using the link under the Slack announcement below.
+    attr:
+      - "style='color: white'"
 announcements:
   - tags:
     - tag: h4
