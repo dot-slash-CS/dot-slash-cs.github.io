@@ -27,30 +27,30 @@ announcements:
       attr:
         - href="https://www.ohlonecs.com/"
       innerHTML: "https://www.ohlonecs.com/"
-  - tags:
-    - tag: h4
-        innerHTML: "Useful Full Link"
-    - tag: p
-      innerHTML: "Command Line Interface Cheat Sheet"
-    - tag: a
-      attr:
-        - href="https://www.git-tower.com/blog/command-line-cheat-sheet/"
-      innerHTML: "https://www.git-tower.com/blog/command-line-cheat-sheet/"
-    - tag: p
-      innerHTML: "Git Cheat Sheet"
-    - tag: a
-      attr:
-        - href="https://www.git-tower.com/blog/git-cheat-sheet/"
-      innerHTML: "https://www.git-tower.com/blog/git-cheat-sheet/"
-    - tag: p
-      innerHTML: "Git Tutorial"
-    - tag: a
-      attr:
-        - href="https://www.youtube.com/watch?v=8KCQe9Pm1kg"
-      innerHTML: "https://www.youtube.com/watch?v=8KCQe9Pm1kg"
-             - tag: p
-      innerHTML: "Git Documentation and Download page"
-    - tag: a
-      attr:
-        - href="https://git-scm.com/"
-      innerHTML: "https://git-scm.com/"
+#   - tags:
+#     - tag: h4
+#         innerHTML: "Useful Full Link"
+#     - tag: p
+#       innerHTML: "Command Line Interface Cheat Sheet"
+#     - tag: a
+#       attr:
+#         - href="https://www.git-tower.com/blog/command-line-cheat-sheet/"
+#       innerHTML: "https://www.git-tower.com/blog/command-line-cheat-sheet/"
+#     - tag: p
+#       innerHTML: "Git Cheat Sheet"
+#     - tag: a
+#       attr:
+#         - href="https://www.git-tower.com/blog/git-cheat-sheet/"
+#       innerHTML: "https://www.git-tower.com/blog/git-cheat-sheet/"
+#     - tag: p
+#       innerHTML: "Git Tutorial"
+#     - tag: a
+#       attr:
+#         - href="https://www.youtube.com/watch?v=8KCQe9Pm1kg"
+#       innerHTML: "https://www.youtube.com/watch?v=8KCQe9Pm1kg"
+#              - tag: p
+#       innerHTML: "Git Documentation and Download page"
+#     - tag: a
+#       attr:
+#         - href="https://git-scm.com/"
+#       innerHTML: "https://git-scm.com/"
