@@ -1,13 +1,13 @@
 updated-timestamp: September 14, 2020
 next-meeting:
-  info: Open House Event
+  info:
     date: Friday, September 18, 2020
     start: 4:30pm
     end: 6:00pm
     location: Zoom Link TBA
-  notes: Sign up at bit.ly/3c41hAL
-    text: 
-announcements:
+  notes: 
+    text: Sign up at bit.ly/3c41hAL
+# announcements:
 #     - tag: p
 #       innerHTML: "Sign Up for the "
 #     - tag: a
