@@ -1,32 +1,38 @@
-updated-timestamp: Feb 25, 2020
+updated-timestamp: September 14, 2020
 next-meeting:
-  info:
-    date: Friday, February 28, 2018
+  info: Open House Event
+    date: Friday, September 18, 2020
     start: 4:30pm
     end: 6:00pm
-    location: Ohlone Newark, NC2306
-  notes:
-    text: Hello, World! We hope you are doing well in your classes so far! For this week’s meeting on Friday (02/28), we are going to start working on our group projects! With the help of our officers, you will be able to set up and begin working on a project that will help build your portfolio. We’re going to try our best to guide you to some useful resources. It’s going to be lots of fun, so please be sure to join us! Also, we posted some of the information for Github used in the last meeting below at GitHub Links, feel free to check them out, they are very useful tools.
+    location: Zoom Link TBA
+  notes: Sign up at bit.ly/3c41hAL
+    text: 
 announcements:
-  - tags:
-    - tag: h4
-      innerHTML: "Sign Up for Ohlone Hackathon"
-    - tag: p
-      innerHTML: " Ohlone is hosting a hackathon on April 4th, 2020, and the application deadline is February 28th! It’s a great learning opportunity, and can help you establish an impressive portfolio; additionally, hackathons are a good way to build and expand a substantial network. We hope you all sign up using their website below!, Website for the Ohlone Hackathon: <a href='https://www.ohlonehacks.com'>https://www.ohlonehacks.com</a>"
-  - tags:
-    - tag: h4
-      innerHTML: "Slack"
-    - tag: p
-      innerHTML: "Slack is our main method of communication with members to give you details about events, homework help, alumni advice, company tours and more. It is a great resource for any student at Ohlone! Invitations to join our club Slack were sent out. We will be using Slack to communicate throughout the semester, so it's very important to join! If you didn't receive a link to join and would like to, please go to <a href='http://join.dotslashcs.club'>http://join.dotslashcs.club</a> to sign up with your Ohlone email. If you'd like to join without an Ohlone email, please reach out to us and we will send you an invite right away!"
-  - tags:
-    - tag: h4
-      innerHTML: "Ohlone CS Website"
-    - tag: p
-      innerHTML: "Check out the Ohlone CS website! It goes in depth as to the CS/CNET classes offered by the school and gives insight into the different fields of CS."
-    - tag: a
-      attr:
-        - href="https://www.ohlonecs.com/"
-      innerHTML: "https://www.ohlonecs.com/"
+#     - tag: p
+#       innerHTML: "Sign Up for the "
+#     - tag: a
+#       attr:
+#         - href="https://www.ohlonecs.com/"
+#       innerHTML: "https://www.ohlonecs.com/"
+#   - tags:
+#     - tag: h4
+#       innerHTML: "Sign Up for Ohlone Hackathon"
+#     - tag: p
+#       innerHTML: " Ohlone is hosting a hackathon on April 4th, 2020, and the application deadline is February 28th! It’s a great learning opportunity, and can help you establish an impressive portfolio; additionally, hackathons are a good way to build and expand a substantial network. We hope you all sign up using their website below!, Website for the Ohlone Hackathon: <a href='https://www.ohlonehacks.com'>https://www.ohlonehacks.com</a>"
+#   - tags:
+#     - tag: h4
+#       innerHTML: "Slack"
+#     - tag: p
+#       innerHTML: "Slack is our main method of communication with members to give you details about events, homework help, alumni advice, company tours and more. It is a great resource for any student at Ohlone! Invitations to join our club Slack were sent out. We will be using Slack to communicate throughout the semester, so it's very important to join! If you didn't receive a link to join and would like to, please go to <a href='http://join.dotslashcs.club'>http://join.dotslashcs.club</a> to sign up with your Ohlone email. If you'd like to join without an Ohlone email, please reach out to us and we will send you an invite right away!"
+#   - tags:
+#     - tag: h4
+#       innerHTML: "Ohlone CS Website"
+#     - tag: p
+#       innerHTML: "Check out the Ohlone CS website! It goes in depth as to the CS/CNET classes offered by the school and gives insight into the different fields of CS."
+#     - tag: a
+#       attr:
+#         - href="https://www.ohlonecs.com/"
+#       innerHTML: "https://www.ohlonecs.com/"
 #   - tags:
 #     - tag: h4
 #         innerHTML: "Useful Full Link"
