@@ -7,12 +7,12 @@ next-meeting:
     location: <a href = "https://us04web.zoom.us/j/78117331150?pwd=NU9iRHA0a2ZYU1pXTmZ6L3B4TlpkUT09">Collaborative Meeting on ./MakeMyFuture</a>
   notes: 
     text: Join our new Discord! We'll have training sessions there for ./MakeMyFuture every week!
-  announcements:
-    - tags:
-        - tag: h4
-          innerHTML: "Interested in ./MakeMyFuture?"
-        - tag: p
-          innerHTML: "Check out the project below by scrolling down! If you're interested in training, join our Discord!"
+announcements:
+  - tags:
+      - tag: h4
+        innerHTML: "Interested in ./MakeMyFuture?"
+      - tag: p
+        innerHTML: "Check out the project below by scrolling down! If you're interested in training, join our Discord!"
 
 
 # announcements:
