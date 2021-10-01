@@ -1,12 +1,20 @@
-updated-timestamp: September 22, 2021
+updated-timestamp: September 30, 2021
 next-meeting:
   info:
-    date: Friday, September 24, 2021
+    date: Friday, September 31, 2021
     start: 4:30pm
     end: 6:00pm
-    location: <a href = "https://us04web.zoom.us/j/79967822127?pwd=Q2xaSXRGSDF0Qm9Rc3NsYTRXY21WZz09">Join Here</a>
+    location: <a href = "https://us04web.zoom.us/j/78117331150?pwd=NU9iRHA0a2ZYU1pXTmZ6L3B4TlpkUT09">Collaborative Meeting on ./MakeMyFuture</a>
   notes: 
-    text: Join our new Discord! We're currently getting setup with our alumni on Slack.
+    text: Join our new Discord! We'll have training sessions there for ./MakeMyFuture every week!
+  announcements:
+    - tags:
+        - tag: h4
+          innerHTML: "Interested in ./MakeMyFuture?"
+        - tag: p
+          innerHTML: "Check out the project below by scrolling down! If you're interested in training, join our Discord!"
+
+
 # announcements:
 #     - tag: p
 #       innerHTML: "Sign Up for the "
