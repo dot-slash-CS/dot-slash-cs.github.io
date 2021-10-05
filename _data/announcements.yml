@@ -1,18 +1,26 @@
-updated-timestamp: September 30, 2021
+updated-timestamp: October 05, 2021
 next-meeting:
   info:
-    date: Friday, September 31, 2021
+    date: Friday, October 08, 2021
     start: 4:30pm
     end: 6:00pm
     location: <a href = "https://us04web.zoom.us/j/78117331150?pwd=NU9iRHA0a2ZYU1pXTmZ6L3B4TlpkUT09">Collaborative Meeting on ./MakeMyFuture</a>
   notes: 
-    text: Join our new Discord! We'll have training sessions there for ./MakeMyFuture every week!
+    text: Training sessions are currently active for ./MakeMyFuture on our Discord!
 announcements:
   - tags:
-      - tag: h4
-        innerHTML: "Interested in ./MakeMyFuture?"
-      - tag: p
-        innerHTML: "Check out the project below by scrolling down! If you're interested in training, join our Discord!"
+    - tag: h4
+      innerHTML: Weekly DotSlash Meetings are now on Thursdays at 3PM!
+    - tag: a
+      attr:
+      - href="https://us04web.zoom.us/j/79967822127?pwd=Q2xaSXRGSDF0Qm9Rc3NsYTRXY21WZz09"
+      innerHTML: "Dot-Slash Meeting on October 07 3-4 PM"
+    - tag: br
+  - tags:
+    - tag: h4
+      innerHTML: "Interested in ./MakeMyFuture?"
+    - tag: p
+      innerHTML: "Check out the project below by scrolling down! If you're interested in training, join our Discord!"
 
 
 # announcements:
