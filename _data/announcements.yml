@@ -1,7 +1,7 @@
-updated-timestamp: October 13, 2021
+updated-timestamp: October 21, 2021
 next-meeting:
   info:
-    date: Friday, October 15, 2021
+    date: Friday, October 22, 2021
     start: 4:30pm
     end: 6:00pm
     location: <a href = "https://us04web.zoom.us/j/78117331150?pwd=NU9iRHA0a2ZYU1pXTmZ6L3B4TlpkUT09">Collaborative Meeting on ./MakeMyFuture</a>
@@ -14,7 +14,7 @@ announcements:
     - tag: a
       attr:
       - href="https://us04web.zoom.us/j/79967822127?pwd=Q2xaSXRGSDF0Qm9Rc3NsYTRXY21WZz09"
-      innerHTML: "Dot-Slash Meeting on October 14 3-4 PM"
+      innerHTML: "Dot-Slash Meeting on October 21 3-4 PM"
     - tag: br
   - tags:
     - tag: h4
